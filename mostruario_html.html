@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostruário de Tags HTML</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1, h2, h3 { color: #2c3e50; }
+        section { margin-bottom: 40px; }
+        code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        table, th, td { border: 1px solid #ddd; }
+        th, td { padding: 10px; text-align: left; }
+        form input, form textarea, form select { display: block; margin-bottom: 10px; width: 300px; padding: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Mostruário de Tags HTML</h1>
+
+    <section>
+        <h2>1. Estrutura Básica</h2>
+        <p>O esqueleto de qualquer documento HTML:</p>
+        <code>&lt;!DOCTYPE html&gt;, &lt;html&gt;, &lt;head&gt;, &lt;body&gt;</code>
+    </section>
+
+    <section>
+        <h2>2. Formatação de Texto</h2>
+        <p><strong>&lt;strong&gt;</strong> - <strong>Texto em negrito</strong></p>
+        <p><em>&lt;em&gt;</em> - <em>Texto em itálico</em></p>
+        <p><u>&lt;u&gt;</u> - <u>Texto sublinhado</u></p>
+        <p><mark>&lt;mark&gt;</mark> - <mark>Texto destacado</mark></p>
+        <p><small>&lt;small&gt;</small> - <small>Texto pequeno</small></p>
+        <p><del>&lt;del&gt;</del> - <del>Texto deletado</del></p>
+        <p><ins>&lt;ins&gt;</ins> - <ins>Texto inserido</ins></p>
+    </section>
+
+    <section>
+        <h2>3. Listas</h2>
+        <p><strong>Lista Ordenada (&lt;ol&gt;)</strong>:</p>
+        <ol>
+            <li>Primeiro item</li>
+            <li>Segundo item</li>
+            <li>Terceiro item</li>
+        </ol>
+
+        <p><strong>Lista Não Ordenada (&lt;ul&gt;)</strong>:</p>
+        <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>Item C</li>
+        </ul>
+
+        <p><strong>Lista de Definição (&lt;dl&gt;)</strong>:</p>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação para a web.</dd>
+            <dt>CSS</dt>
+            <dd>Folhas de estilo para design visual.</dd>
+        </dl>
+    </section>
+
+    <section>
+        <h2>4. Links e Imagens</h2>
+        <p><strong>Link (&lt;a&gt;)</strong>: <a href="https://www.example.com" target="_blank">Visite o Example.com</a></p>
+        <p><strong>Imagem (&lt;img&gt;)</strong>:</p>
+        <img src="https://via.placeholder.com/150" alt="Imagem de exemplo">
+    </section>
+
+    <section>
+        <h2>5. Tabelas</h2>
+        <p>Exemplo de tabela com cabeçalho:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Profissão</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>João</td>
+                    <td>25</td>
+                    <td>Desenvolvedor</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>30</td>
+                    <td>Designer</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>6. Formulários</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <section>
+        <h2>7. Multimídia</h2>
+        <p><strong>Audio (&lt;audio&gt;)</strong>:</p>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+
+        <p><strong>Vídeo (&lt;video&gt;)</strong>:</p>
+        <video width="320" height="240" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </section>
+
+    <section>
+        <h2>8. Elementos de Bloco e Inline</h2>
+        <p><strong>Div (&lt;div&gt;)</strong> é um elemento de bloco:</p>
+        <div style="background-color: #e0e0e0; padding: 10px;">Este é um bloco.</div>
+
+        <p><strong>Span (&lt;span&gt;)</strong> é um elemento inline:</p>
+        <p>Este é um <span style="color: red;">texto em destaque</span> dentro de um parágrafo.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mostruário HTML. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
